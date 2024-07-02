@@ -5,7 +5,7 @@
 Ascent has NVIDIA V100 GPUs and you should be able to login and submit jobs that leverage them. If you have access to the Ascent system, CUDA Quantum has been built from source and is available as a module. 
 
 1. Clone the workshop repo  \
-`$ git clone https://github.com/poojarao8/ornl-cudaq-workshop` 
+`$ git clone https://github.com/justinlietz/ornl-cudaq-workshop` 
  
 2. Upload the module \
 ```$ module purge && module load cudaq ```
