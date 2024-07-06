@@ -1,0 +1,156 @@
+xl/16.1.1-10
+lsf-tools/2.0
+DefApps
+tmux/3.2a
+spectrum-mpi/10.4.0.3-20210112
+nsight-compute/2021.2.1
+nsight-systems/2021.3.1.54
+cuda/12.2.0
+python/3.8-anaconda3
+errno 14 pid 160296
+python3: /__SMPI_build_dir__________________________/ibmsrc/pami/ibm-pami/buildtools/pami_build_port/../pami/components/devices/shmem/shaddr/CMAShaddr.h:164: size_t PAMI::Device::Shmem::CMAShaddr::read_impl(PAMI::Memregion*, size_t, PAMI::Memregion*, size_t, size_t, bool*): Assertion `cbytes > 0' failed.
+[h49n01:160295] *** Process received signal ***
+[h49n01:160295] Signal: Aborted (6)
+[h49n01:160295] Signal code:  (-6)
+[h49n01:160295] [ 0] linux-vdso64.so.1(__kernel_sigtramp_rt64+0x0)[0x2000000604d8]
+[h49n01:160295] [ 1] /lib64/glibc-hwcaps/power9/libc-2.28.so(gsignal+0xd8)[0x2000002e96f8]
+[h49n01:160295] [ 2] errno 14 pid 160295
+python3: /__SMPI_build_dir__________________________/ibmsrc/pami/ibm-pami/buildtools/pami_build_port/../pami/components/devices/shmem/shaddr/CMAShaddr.h:164: size_t PAMI::Device::Shmem::CMAShaddr::read_impl(PAMI::Memregion*, size_t, PAMI::Memregion*, size_t, size_t, bool*): Assertion `cbytes > 0' failed.
+[h49n01:160296] *** Process received signal ***
+[h49n01:160296] Signal: Aborted (6)
+[h49n01:160296] Signal code:  (-6)
+[h49n01:160296] [ 0] linux-vdso64.so.1(__kernel_sigtramp_rt64+0x0)[0x2000000604d8]
+[h49n01:160296] [ 1] /lib64/glibc-hwcaps/power9/libc-2.28.so(gsignal+0xd8)[0x2000002e96f8]
+[h49n01:160296] [ 2] /lib64/glibc-hwcaps/power9/libc-2.28.so(abort+0x164)[0x2000002c3ff4]
+[h49n01:160296] [ 3] /lib64/glibc-hwcaps/power9/libc-2.28.so(+0x3d280)[0x2000002dd280]
+[h49n01:160296] [ 4] errno 14 pid 160297
+python3: /__SMPI_build_dir__________________________/ibmsrc/pami/ibm-pami/buildtools/pami_build_port/../pami/components/devices/shmem/shaddr/CMAShaddr.h:164: size_t PAMI::Device::Shmem::CMAShaddr::read_impl(PAMI::Memregion*, size_t, PAMI::Memregion*, size_t, size_t, bool*): Assertion `cbytes > 0' failed.
+[h49n01:160294] *** Process received signal ***
+[h49n01:160294] Signal: Aborted (6)
+[h49n01:160294] Signal code:  (-6)
+[h49n01:160294] [ 0] linux-vdso64.so.1(__kernel_sigtramp_rt64+0x0)[0x2000000604d8]
+[h49n01:160294] [ 1] /lib64/glibc-hwcaps/power9/libc-2.28.so(gsignal+0xd8)[0x2000002e96f8]
+[h49n01:160294] [ 2] /lib64/glibc-hwcaps/power9/libc-2.28.so(abort+0x164)[0x2000002c3ff4]
+[h49n01:160294] [ 3] /lib64/glibc-hwcaps/power9/libc-2.28.so(+0x3d280)[0x2000002dd280]
+[h49n01:160294] [ 4] /lib64/glibc-hwcaps/power9/libc-2.28.so(__assert_fail+0x64)[0x2000002dd324]
+[h49n01:160294] [ 5] errno 14 pid 160294
+python3: /__SMPI_build_dir__________________________/ibmsrc/pami/ibm-pami/buildtools/pami_build_port/../pami/components/devices/shmem/shaddr/CMAShaddr.h:164: size_t PAMI::Device::Shmem::CMAShaddr::read_impl(PAMI::Memregion*, size_t, PAMI::Memregion*, size_t, size_t, bool*): Assertion `cbytes > 0' failed.
+[h49n01:160297] *** Process received signal ***
+[h49n01:160297] Signal: Aborted (6)
+[h49n01:160297] Signal code:  (-6)
+[h49n01:160297] [ 0] linux-vdso64.so.1(__kernel_sigtramp_rt64+0x0)[0x2000000604d8]
+[h49n01:160297] [ 1] /lib64/glibc-hwcaps/power9/libc-2.28.so(gsignal+0xd8)[0x2000002e96f8]
+[h49n01:160297] [ 2] /lib64/glibc-hwcaps/power9/libc-2.28.so(abort+0x164)[0x2000002c3ff4]
+[h49n01:160297] [ 3] /lib64/glibc-hwcaps/power9/libc-2.28.so(+0x3d280)[0x2000002dd280]
+[h49n01:160297] [ 4] /lib64/glibc-hwcaps/power9/libc-2.28.so(__assert_fail+0x64)[0x2000002dd324]
+[h49n01:160297] [ 5] /lib64/glibc-hwcaps/power9/libc-2.28.so(abort+0x164)[0x2000002c3ff4]
+[h49n01:160295] [ 3] /lib64/glibc-hwcaps/power9/libc-2.28.so(+0x3d280)[0x2000002dd280]
+[h49n01:160295] [ 4] /lib64/glibc-hwcaps/power9/libc-2.28.so(__assert_fail+0x64)[0x2000002dd324]
+[h49n01:160295] [ 5] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get7GetRdmaINS_6Device5Shmem8DmaModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEELb0EEESL_E6simpleEP18pami_rget_simple_t+0x1d8)[0x200129c160b8]
+[h49n01:160295] [ 6] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get13CompositeRGetINS1_4RGetES3_E6simpleEP18pami_rget_simple_t+0x40)[0x200129b6c590]
+[h49n01:160295] [ 7] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI7Context9rget_implEP18pami_rget_simple_t+0x28c)[0x200129b9a05c]
+[h49n01:160295] [ 8] /lib64/glibc-hwcaps/power9/libc-2.28.so(__assert_fail+0x64)[0x2000002dd324]
+[h49n01:160296] [ 5] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get7GetRdmaINS_6Device5Shmem8DmaModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEELb0EEESL_E6simpleEP18pami_rget_simple_t+0x1d8)[0x200129c160b8]
+[h49n01:160296] [ 6] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get13CompositeRGetINS1_4RGetES3_E6simpleEP18pami_rget_simple_t+0x40)[0x200129b6c590]
+[h49n01:160296] [ 7] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI7Context9rget_implEP18pami_rget_simple_t+0x28c)[0x200129b9a05c]
+[h49n01:160296] [ 8] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get7GetRdmaINS_6Device5Shmem8DmaModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEELb0EEESL_E6simpleEP18pami_rget_simple_t+0x1d8)[0x200129c160b8]
+[h49n01:160294] [ 6] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get13CompositeRGetINS1_4RGetES3_E6simpleEP18pami_rget_simple_t+0x40)[0x200129b6c590]
+[h49n01:160294] [ 7] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI7Context9rget_implEP18pami_rget_simple_t+0x28c)[0x200129b9a05c]
+[h49n01:160294] [ 8] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Rget+0x18)[0x200129b58e38]
+/sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get7GetRdmaINS_6Device5Shmem8DmaModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEELb0EEESL_E6simpleEP18pami_rget_simple_t+0x1d8)[0x200129c160b8]
+[h49n01:160297] [ 6] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol3Get13CompositeRGetINS1_4RGetES3_E6simpleEP18pami_rget_simple_t+0x40)[0x200129b6c590]
+[h49n01:160297] [ 7] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI7Context9rget_implEP18pami_rget_simple_t+0x28c)[0x200129b9a05c]
+[h49n01:160297] [ 8] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Rget+0x18)[0x200129b58e38]
+/sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Rget+0x18)[0x200129b58e38]
+[h49n01:160295] [ 9] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(process_rndv_msg+0x46c)[0x2001289959ec]
+[h49n01:160295] [10] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(pml_pami_recv_rndv_cb+0x2bc)[0x20012899674c]
+[h49n01:160295] [11] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol4Send11EagerSimpleINS_6Device5Shmem11PacketModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEEEELNS1_15configuration_tE5EE15dispatch_packedEPvSP_mSP_SP_+0x4c)[0x200129b62a2c]
+[h49n01:160295] [12] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Context_advancev+0x6a0)[0x200129b59ec0]
+[h49n01:160295] [13] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(mca_pml_pami_progress+0x34)[0x200128987424]
+[h49n01:160295] [14] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libopen-pal.so.3(opal_progress+0x6c)[0x2000eeb6610c]
+[h49n01:160295] [15] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(ompi_request_default_wait_all+0x144)[0x2000e3e31064]
+[h49n01:160295] [16] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(PMPI_Waitall+0x10c)[0x2000e3e9216c]
+[h49n01:160295] [17] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Rget+0x18)[0x200129b58e38]
+[h49n01:160296] [ 9] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(process_rndv_msg+0x46c)[0x2001289959ec]
+[h49n01:160296] [10] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(pml_pami_recv_rndv_cb+0x2bc)[0x20012899674c]
+[h49n01:160296] [11] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol4Send11EagerSimpleINS_6Device5Shmem11PacketModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEEEELNS1_15configuration_tE5EE15dispatch_packedEPvSP_mSP_SP_+0x4c)[0x200129b62a2c]
+[h49n01:160296] [12] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Context_advancev+0x6a0)[0x200129b59ec0]
+[h49n01:160296] [13] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(mca_pml_pami_progress+0x34)[0x200128987424]
+[h49n01:160296] [14] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libopen-pal.so.3(opal_progress+0x6c)[0x2000eeb6610c]
+[h49n01:160296] [15] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(ompi_request_default_wait_all+0x144)[0x2000e3e31064]
+[h49n01:160296] [16] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(PMPI_Waitall+0x10c)[0x2000e3e9216c]
+[h49n01:160296] [17] [h49n01:160294] [ 9] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(process_rndv_msg+0x46c)[0x2001289959ec]
+[h49n01:160294] [10] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(pml_pami_recv_rndv_cb+0x2bc)[0x20012899674c]
+[h49n01:160294] [11] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol4Send11EagerSimpleINS_6Device5Shmem11PacketModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEEEELNS1_15configuration_tE5EE15dispatch_packedEPvSP_mSP_SP_+0x4c)[0x200129b62a2c]
+[h49n01:160294] [12] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Context_advancev+0x6a0)[0x200129b59ec0]
+[h49n01:160294] [13] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(mca_pml_pami_progress+0x34)[0x200128987424]
+[h49n01:160294] [14] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libopen-pal.so.3(opal_progress+0x6c)[0x2000eeb6610c]
+[h49n01:160294] [15] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(ompi_request_default_wait_all+0x144)[0x2000e3e31064]
+[h49n01:160294] [16] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(PMPI_Waitall+0x10c)[0x2000e3e9216c]
+[h49n01:160294] [17] [h49n01:160297] [ 9] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(process_rndv_msg+0x46c)[0x2001289959ec]
+[h49n01:160297] [10] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(pml_pami_recv_rndv_cb+0x2bc)[0x20012899674c]
+[h49n01:160297] [11] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(_ZN4PAMI8Protocol4Send11EagerSimpleINS_6Device5Shmem11PacketModelINS3_11ShmemDeviceINS_4Fifo8WrapFifoINS7_10FifoPacketILj64ELj4096EEENS_7Counter15IndirectBoundedINS_6Atomic12NativeAtomicEEELj256EEENSB_8IndirectINSB_6NativeEEENS4_9CMAShaddrELj256ELj512EEEEELNS1_15configuration_tE5EE15dispatch_packedEPvSP_mSP_SP_+0x4c)[0x200129b62a2c]
+[h49n01:160297] [12] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/pami_port/libpami.so.3(PAMI_Context_advancev+0x6a0)[0x200129b59ec0]
+[h49n01:160297] [13] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/spectrum_mpi/mca_pml_pami.so(mca_pml_pami_progress+0x34)[0x200128987424]
+[h49n01:160297] [14] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libopen-pal.so.3(opal_progress+0x6c)[0x2000eeb6610c]
+[h49n01:160297] [15] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(ompi_request_default_wait_all+0x144)[0x2000e3e31064]
+[h49n01:160297] [16] /sw/ascent/spack-envs/base/opt/linux-rhel8-ppc64le/xl-16.1.1-10/spectrum-mpi-10.4.0.3-20210112-dzedzfvocsuzkm4jkqe7o64x53yhq7nm/container/../lib/libmpi_ibm.so(PMPI_Waitall+0x10c)[0x2000e3e9216c]
+[h49n01:160297] [17] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x352328)[0x2000aff92328]
+[h49n01:160296] [18] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x352328)[0x2000affd2328]
+[h49n01:160295] [18] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x352328)[0x2000affd2328]
+[h49n01:160294] [18] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x352328)[0x2000aff92328]
+[h49n01:160297] [18] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x351818)[0x2000affd1818]
+[h49n01:160295] [19] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x351818)[0x2000aff91818]
+[h49n01:160297] [19] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x351818)[0x2000affd1818]
+[h49n01:160294] [19] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-nvidia-mgpu-fp32.so(+0x351818)[0x2000aff91818]
+[h49n01:160296] [19] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN10custatevec22CommPluginCommunicator11synchronizeEP24custatevecCommunicator_t+0x4c)[0x2000af3590d4]
+[h49n01:160295] [20] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3ed5b0)[0x20008c63d5b0]
+[h49n01:160295] [21] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3eb5ec)[0x20008c63b5ec]
+[h49n01:160295] [22] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x137704)[0x20008c387704]
+[h49n01:160295] [23] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(custatevecSVSwapWorkerExecute+0x6dc)[0x20008c38414c]
+[h49n01:160295] [24] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN10custatevec22CommPluginCommunicator11synchronizeEP24custatevecCommunicator_t+0x4c)[0x2000af3190d4]
+[h49n01:160296] [20] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3ed5b0)[0x20008c5fd5b0]
+[h49n01:160296] [21] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3eb5ec)[0x20008c5fb5ec]
+[h49n01:160296] [22] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x137704)[0x20008c347704]
+[h49n01:160296] [23] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(custatevecSVSwapWorkerExecute+0x6dc)[0x20008c34414c]
+[h49n01:160296] [24] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN10custatevec22CommPluginCommunicator11synchronizeEP24custatevecCommunicator_t+0x4c)[0x2000af3590d4]
+[h49n01:160294] [20] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3ed5b0)[0x20008c63d5b0]
+[h49n01:160294] [21] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3eb5ec)[0x20008c63b5ec]
+[h49n01:160294] [22] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x137704)[0x20008c387704]
+[h49n01:160294] [23] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(custatevecSVSwapWorkerExecute+0x6dc)[0x20008c38414c]
+[h49n01:160294] [24] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN10custatevec22CommPluginCommunicator11synchronizeEP24custatevecCommunicator_t+0x4c)[0x2000af3190d4]
+[h49n01:160297] [20] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3ed5b0)[0x20008c5fd5b0]
+[h49n01:160297] [21] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x3eb5ec)[0x20008c5fb5ec]
+[h49n01:160297] [22] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(+0x137704)[0x20008c347704]
+[h49n01:160297] [23] /gpfs/wolf2/olcf/trn024/proj-shared/cuquantum-24.03.0.4/lib/libcustatevec.so.1(custatevecSVSwapWorkerExecute+0x6dc)[0x20008c34414c]
+[h49n01:160297] [24] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess24applyGlobalIndexBitSwapsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x39c)[0x2000af353250]
+[h49n01:160295] [25] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess24applyGlobalIndexBitSwapsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x39c)[0x2000af313250]
+[h49n01:160296] [25] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess24applyGlobalIndexBitSwapsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x39c)[0x2000af353250]
+[h49n01:160294] [25] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess24applyGlobalIndexBitSwapsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x39c)[0x2000af313250]
+[h49n01:160297] [25] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x338)[0x2000af3523c0]
+[h49n01:160295] [26] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x338)[0x2000af3123c0]
+[h49n01:160296] [26] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x338)[0x2000af3123c0]
+[h49n01:160297] [26] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26WireSwapWorkerMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayI4int2Li64EEE+0x338)[0x2000af3523c0]
+[h49n01:160294] [26] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEERKSt6vectorINS4_I4int2Li64EEESaISA_EE+0xe0)[0x2000af2a15e0]
+[h49n01:160295] [27] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEERKSt6vectorINS4_I4int2Li64EEESaISA_EE+0xe0)[0x2000af2615e0]
+[h49n01:160296] [27] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEERKSt6vectorINS4_I4int2Li64EEESaISA_EE+0xe0)[0x2000af2615e0]
+[h49n01:160297] [27] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess13swapIndexBitsERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEERKSt6vectorINS4_I4int2Li64EEESaISA_EE+0xe0)[0x2000af2a15e0]
+[h49n01:160294] [27] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess34applyGateGroupsForLocalStateVectorERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEE+0x70)[0x2000af2a12b0]
+[h49n01:160295] [28] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess34applyGateGroupsForLocalStateVectorERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEE+0x70)[0x2000af2612b0]
+[h49n01:160297] [28] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess34applyGateGroupsForLocalStateVectorERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEE+0x70)[0x2000af2612b0]
+[h49n01:160296] [28] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess34applyGateGroupsForLocalStateVectorERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEE+0x70)[0x2000af2a12b0]
+[h49n01:160294] [28] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x60)[0x2000af2a0fec]
+[h49n01:160295] [29] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x60)[0x2000af260fec]
+[h49n01:160297] [29] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x60)[0x2000af260fec]
+[h49n01:160296] [29] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x60)[0x2000af2a0fec]
+[h49n01:160294] [29] /gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x200)[0x2000af2a118c]
+[h49n01:160295] *** End of error message ***
+/gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x200)[0x2000af26118c]
+[h49n01:160296] *** End of error message ***
+/gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x200)[0x2000af26118c]
+[h49n01:160297] *** End of error message ***
+/gpfs/wolf2/olcf/trn024/proj-shared/install/cudaq-patch/cudaq/mlir/_mlir_libs/../../../lib/libnvqir-cusvsim-fp32.so(_ZN8ubackend26GateApplicatorMultiProcess24applyGateGroupsRecursiveERNS_17DeviceStateVectorERKN10custatevec11StaticArrayIiLi64EEEi+0x200)[0x2000af2a118c]
+[h49n01:160294] *** End of error message ***
+Command terminated by signal 6
+1.55user 1.11system 0:02.81elapsed 94%CPU (0avgtext+0avgdata 613184maxresident)k
+0inputs+0outputs (0major+11005minor)pagefaults 0swaps

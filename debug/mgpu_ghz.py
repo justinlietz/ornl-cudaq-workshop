@@ -3,7 +3,7 @@ import cudaq
 cudaq.mpi.initialize()
 
 # qubit_count = 33
-qubit_count = 20
+qubit_count = 28
 
 @cudaq.kernel
 def kernel(qubit_num: int):
