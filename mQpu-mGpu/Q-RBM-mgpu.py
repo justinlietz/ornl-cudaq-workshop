@@ -2,8 +2,11 @@
 
 import cudaq
 
-cudaq.set_target("nvidia")
+cudaq.set_target("nvidia-mqpu")
 
+target = cudaq.get_target()
+qpu_count = target.num_qpus()
+print("Number of QPUs:", qpu_count)
 
 @cudaq.kernel
 def qrbm(v_nodes:int, h_nodes:int, ancilla:int, theta: list[float], coupling: list[float]):
