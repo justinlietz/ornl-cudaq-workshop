@@ -1,6 +1,6 @@
 #BSUB -P TRN024
 #BSUB -W 0:10
-#BSUB -nnodes 1
+#BSUB -nnodes 2
 #BSUB -alloc_flags gpudefault
 #BSUB -J cudaq_py_nvidia
 #BSUB -o cudaq_py_nvidia_%J.output
@@ -41,7 +41,12 @@ export CUDAQ_CLANG_EXTRA_ARGS=--gcc-toolchain=/sw/ascent/gcc/11.2.0-0
 # with a single MPI rank (a), a single core (c), and a
 # single GPU (1)
 
-jsrun -n 4 -a 1 -c 1 -g 1 time python3 mgpu_ghz.py --target nvidia-mgpu
+# jsrun -n 1 -a 1 -c 1 -g 1 time python3 ../mQpu-mGpu/observe-qml-mnmgpu.py
+# jsrun -n 1 -a 1 -c 1 -g 6 time python3 ../mQpu-mGpu/observe-qml-mnmgpu.py
+jsrun -n 1 -a 1 -c 1 -g 6 time python3 ../mQpu-mGpu/observe-qml-mnmgpu.py
+jsrun -n 2 -a 1 -c 1 -g 6 time python3 ../mQpu-mGpu/observe-qml-mnmgpu.py
+# jsrun -n 4 -a 1 -c 1 -g 1 time python3 ../mQpu-mGpu/observe-qml-multigpu.py
+# jsrun -n 4 -a 1 -c 1 -g 1 time python3 ../mQpu-mGpu/observe-qml-1gpu.py
 # jsrun -n 1 -a 1 -c 1 -g 1 time python3 examples/python/cuquantum_backends.py --target qpp-cpu
 # jsrun -n 1 -a 1 -c 1 -g 1 time python3 examples/python/cuquantum_backends.py --target nvidia
 # jsrun -n 1 -a 1 -c 1 -g 1 time python3 examples/python/cuquantum_backends.py --target tensornet
