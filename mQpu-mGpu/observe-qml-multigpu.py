@@ -52,12 +52,13 @@ for i in range(len(xi)):
         asyncresults.append(
             cudaq.observe_async(kernel_rx, ham, xi[i][j, :], qpu_id=i))
         
-end_time = timeit.default_timer()
-print('Elapsed time (s) for multi-GPU: ', end_time-start_time)
+
 
 #print('Energies from multi-GPUs')
 for result in asyncresults:
     observe_result = result.get()
     got_expectation = observe_result.expectation()
-    #print(got_expectation)
-        
+    print(got_expectation)
+
+#end_time = timeit.default_timer()
+#print('Elapsed time (s) for multi-GPU: ', end_time-start_time)
