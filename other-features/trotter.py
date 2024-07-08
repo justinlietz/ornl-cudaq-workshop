@@ -21,8 +21,6 @@ steps = 10
 
 cudaq.set_target("nvidia")
 
-
-
 # Alternating up/down spins
 @cudaq.kernel
 def getInitState(numSpins: int):
