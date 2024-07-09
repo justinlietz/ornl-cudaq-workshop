@@ -121,14 +121,8 @@ def stabilizer_memory(
     steane_prep_logical_zero(data);
 
     # Starting with fresh qubits here,
-    # in general should reset
+    # in general should reset.
     # Now apply x_stabilizer circuit
-    # d = 2 example
-    # s[0] = {0, 2}
-    # s[1] = {1, 3}
-    # So need 4 CX's:
-    # CX(ax0, d0), CX(ax0, d2)
-    # CX(ax1, d1), CX(ax1, d3)
     h(amx);
     for si in range(num_stabs):
         for xi in range(num_anc):
@@ -146,47 +140,6 @@ def stabilizer_memory(
     z_readout1 = mz(amz);
 
     data_readout = mz(data);
-
-    # bool multiround = 1;
-    # if(multiround){
-    #   // round 2
-    #   h(amx);
-    #   for(size_t xi = 0; xi < x_stabs.size(); ++xi){
-    #     for(size_t di = 0; di < x_stabs[xi].size(); ++di){
-    #       x<cudaq::ctrl>(amx[xi], data[di]);
-    #     }
-    #   }
-    #   h(amx);
-
-    #   // Now apply z_stabilizer circuit
-    #   for(size_t zi = 0; zi < z_stabs.size(); ++zi){
-    #     for(size_t di = 0; di < z_stabs[zi].size(); ++di){
-    #       x<cudaq::ctrl>(data[di], amz[zi]);
-    #     }
-    #   }
-
-    #   auto x_readout2 = mz(amx);
-    #   auto z_readout2 = mz(amz);
-
-    #   // round 3
-    #   h(amx);
-    #   for(size_t xi = 0; xi < x_stabs.size(); ++xi){
-    #     for(size_t di = 0; di < x_stabs[xi].size(); ++di){
-    #       x<cudaq::ctrl>(amx[xi], data[di]);
-    #     }
-    #   }
-    #   h(amx);
-
-    #   // Now apply z_stabilizer circuit
-    #   for(size_t zi = 0; zi < z_stabs.size(); ++zi){
-    #     for(size_t di = 0; di < z_stabs[zi].size(); ++di){
-    #       x<cudaq::ctrl>(data[di], amz[zi]);
-    #     }
-    #   }
-
-    #   auto x_readout3 = mz(amx);
-    #   auto z_readout3 = mz(amz);
-    # }
 
 
 @cudaq.kernel
@@ -208,19 +161,20 @@ print(cudaq.draw(run_steane))
 result=cudaq.sample(run_steane)
 print('Sampling result', result)
 
-  # Stein code
-stabs = [0,1,2,3,1,2,4,5,2,3,5,6]
-# stab_1 = [1,2,4,5]
-# stab_2 = [2,3,5,6]
+# Stein code
+stab_0 = [0,1,2,3]
+stab_1 = [1,2,4,5]
+stab_2 = [2,3,5,6]
+# concatenate
+stabs = stab_0 + stab_1 + stab_2
+print("stabs:", stabs)
 
 n_data_qubits = 7;
 nShots = 1000
 num_stabs = 3
 print("Steane code results:\n")
-# print(f"xstabs: {steane_x_stabilizers}")
 print(f"lenxstabs: {len(stabs)}")
 print(f"lenxstabs/3: {len(stabs)/3}")
-# print(f"lenxstabs0: {len(steane_x_stabilizers[0])}")
 print(cudaq.draw(stabilizer_memory, n_data_qubits, 3, stabs))
 
 result = cudaq.sample(stabilizer_memory, n_data_qubits, 3, stabs)

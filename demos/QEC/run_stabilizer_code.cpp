@@ -163,12 +163,15 @@ struct stabilizer_memory{
     auto x_readout1 = mz(amx);
     auto z_readout1 = mz(amz);
 
-    bool multiround = 0;
+    bool multiround = 1;
     if(multiround){
       // round 2
       h(amx);
       for(size_t xi = 0; xi < x_stabs.size(); ++xi){
-        for(size_t di = 0; di < x_stabs[xi].size(); ++di){
+        for(size_t xj = 0; xj < x_stabs[xi].size(); ++xj){
+          // anc index given by stab index
+          // data index must be read out
+          size_t di = x_stabs[xi][xj];
           x<cudaq::ctrl>(amx[xi], data[di]);
         }
       }
@@ -176,7 +179,8 @@ struct stabilizer_memory{
 
       // Now apply z_stabilizer circuit
       for(size_t zi = 0; zi < z_stabs.size(); ++zi){
-        for(size_t di = 0; di < z_stabs[zi].size(); ++di){
+        for(size_t zj = 0; zj < z_stabs[zi].size(); ++zj){
+          size_t di = z_stabs[zi][zj];
           x<cudaq::ctrl>(data[di], amz[zi]);
         }
       }
@@ -187,7 +191,10 @@ struct stabilizer_memory{
       // round 3
       h(amx);
       for(size_t xi = 0; xi < x_stabs.size(); ++xi){
-        for(size_t di = 0; di < x_stabs[xi].size(); ++di){
+        for(size_t xj = 0; xj < x_stabs[xi].size(); ++xj){
+          // anc index given by stab index
+          // data index must be read out
+          size_t di = x_stabs[xi][xj];
           x<cudaq::ctrl>(amx[xi], data[di]);
         }
       }
@@ -195,7 +202,8 @@ struct stabilizer_memory{
 
       // Now apply z_stabilizer circuit
       for(size_t zi = 0; zi < z_stabs.size(); ++zi){
-        for(size_t di = 0; di < z_stabs[zi].size(); ++di){
+        for(size_t zj = 0; zj < z_stabs[zi].size(); ++zj){
+          size_t di = z_stabs[zi][zj];
           x<cudaq::ctrl>(data[di], amz[zi]);
         }
       }
@@ -240,8 +248,8 @@ int main() {
 
   uint32_t n_data_qubits = 7;
   /* auto counts = cudaq::sample(nShots, run_steane{}); */
-  printf("Steane code results:\n");
-  auto steane_counts = cudaq::sample(nShots, stabilizer_memory{}, n_data_qubits, rounds, steane_x_stabilizers, steane_z_stabilizers);
-  steane_counts.dump();
+  /* printf("Steane code results:\n"); */
+  /* auto steane_counts = cudaq::sample(nShots, stabilizer_memory{}, n_data_qubits, rounds, steane_x_stabilizers, steane_z_stabilizers); */
+  /* steane_counts.dump(); */
 }
 
