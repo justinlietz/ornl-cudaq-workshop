@@ -1,5 +1,3 @@
-#! /usr/env/python3
-
 import cudaq
 
 cudaq.mpi.initialize()
