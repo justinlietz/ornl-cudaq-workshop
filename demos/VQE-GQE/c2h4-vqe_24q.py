@@ -11,7 +11,7 @@ from scipy.optimize import minimize
 import numpy as np
 
 # GPU
-cudaq.set_target("nvidia-fp64")
+cudaq.set_target("nvidia-mgpu")
 
 # 1- Classical pre-processing:
 
