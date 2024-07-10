@@ -21,7 +21,7 @@ x86_64 / AMD64, `ghcr.io/nvidia/cuda-quantum:latest`
 Please pull these images before you arrive at the workshop (using, `docker pull $IMAGE`). If your laptop is based on an ARM processor (e.g. like the newest Macbooks, M1 / M2), make sure you pull the AARCH64 image.
 
 To pull these images, you will need to install [docker](https://www.docker.com/) and then run `docker pull <image_name>`.\
-For instructions on how to run the CUDA Quantum container, refer to https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda-quantum.
+For instructions on how to run the CUDA Quantum container, refer to [https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda-quantum](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/quantum/containers/cuda-quantum).
  
 CUDA Quantum programs run natively via backend-extensible circuit simulators. The most performant of these require an NVIDIA GPU (e.g. V100, A100, H100, A6000, A4000, etc.). If you do not have access to such a GPU (e.g. on your Macbook), then you will not be able to target these backends. If you have access to a remote workstation with an NVIDIA GPU that you can access during the tutorial, that would be best.
 
