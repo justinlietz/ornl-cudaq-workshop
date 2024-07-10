@@ -17,14 +17,13 @@ print(f"My rank {cudaq.mpi.rank()} of {cudaq.mpi.num_ranks()}")
 print("Number of my QPUs:", my_qpu_count)
 print("Number of QPUs total:", qpu_count)
 
-# 24 takes about 100 seconds total
-qubit_count = 20
+qubit_count = 24
 sample_count = 1200
 
 ham = spin.z(0)
 
 
-# Below we run a circuit for 500 different sets of input parameters.
+# Below we run a circuit for 1200 different sets of input parameters.
 parameters = np.random.default_rng(13).uniform(low=0,high=1,size=(sample_count, qubit_count))
 
 print('Parameter shape: ', parameters.shape)

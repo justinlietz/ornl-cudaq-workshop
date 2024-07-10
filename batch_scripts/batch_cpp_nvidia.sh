@@ -8,7 +8,9 @@
 #BSUB -e cudaq_cpp_nvidia_%J.error
 
 module purge
-module load cudaq
+module use /gpfs/wolf2/olcf/trn024/proj-shared/modulefiles
+module load gcc/11.2.0
+module load cudaq/0.8.0
 module load spectrum-mpi/10.4.0.3-20210112
 module -t list
 

@@ -1,4 +1,5 @@
 import cudaq
+import timeit
 
 cudaq.mpi.initialize()
 
@@ -18,9 +19,12 @@ def kernel(qubit_num: int):
     # Measure the qubits.
     mz(qvector)
 
+start = timeit.default_timer()
 #print("Preparing GHZ state for", qubit_count, "qubits.")
 counts = cudaq.sample(kernel, qubit_count)
+end = timeit.default_timer()
 if cudaq.mpi.rank() == 0:
     print(counts)
+    print("time:", end-start)
 
 cudaq.mpi.finalize()
