@@ -8,18 +8,15 @@ Ascent has NVIDIA V100 GPUs and you should be able to login and submit jobs that
 `$ git clone https://github.com/justinlietz/ornl-cudaq-workshop` 
  
 2. Upload the module \
-```$ module purge && module load cudaq ```
+```$source batch_scripts/load_env.sh ```
 
-3. Running examples \
-Each subfolder in `ORNL\demo` contains a `C++` file as well as a `Python` script, along with the batch submission scripts for Ascent. The examples are put in different subfolders depending on the CUDA Quantum features they illustrate. 
+3. Running examples in demos/examples in C++ or Pythong.
 
 
 ## Running CUDA Quantum for non-OLCF systems
 If you do not have access to Ascent, the easiest way to get started with CUDA Quantum is via the public Docker images. These images are available for `x86_64` (or `AMD64`) and `aarch64` CPU architectures. Depending on whether you have an NVIDIA GPU or not, you’ll also want to pull a specific tag for these images. 
  
-x86_64 / AMD64, **no NVIDIA GPU** – `ghcr.io/nvidia/cuda-quantum:latest`  \
-x86_64 / AMD64, **with NVIDIA GPU** – `ghcr.io/nvidia/cuda-quantum:latest-hpc` \
-AARCH64 / ARM, **no NVIDIA GPU** – `ghcr.io/amccaskey/cuda-quantum:aarch64`  
+x86_64 / AMD64, `ghcr.io/nvidia/cuda-quantum:latest` 
  
 Please pull these images before you arrive at the workshop (using, `docker pull $IMAGE`). If your laptop is based on an ARM processor (e.g. like the newest Macbooks, M1 / M2), make sure you pull the AARCH64 image.
 
