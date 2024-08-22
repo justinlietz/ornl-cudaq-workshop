@@ -62,8 +62,6 @@ for i in range(len(xi)):
         asyncresults.append(
             cudaq.observe_async(kernel_rx, ham, xi[i][j], qpu_id=i))
 
-
-
 exp_list = []
 for result in asyncresults:
     observe_result = result.get() # sync happens here.

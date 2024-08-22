@@ -7,7 +7,7 @@
 #BSUB -e cudaq_py_nvidia_%J.error
 
 module purge
-module use /gpfs/wolf2/olcf/trn024/proj-shared/modulefiles
+module use /gpfs/wolf2/olcf/stf007/world-shared/9b8/modulefiles/
 module load gcc/11.2.0
 module load cudaq/0.8.0
 module load spectrum-mpi/10.4.0.3-20210112
